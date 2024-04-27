@@ -1,0 +1,22 @@
+.home2 {
+    margin: 0;
+    padding: 0;
+    background-image: url('image1.jpg'); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    max-height: 95vh;
+  }
+ .home2 h1{
+    margin-top: -20%;
+    color: rgb(81, 255, 0);
+    /* background-color: aqua; */
+  }
+  
+ 
+  

@@ -1,0 +1,81 @@
+/* Home3.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/* 
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+} */
+
+.h3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.new-arrivals,
+.popular-books {
+  background-color: #66defc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 10px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid red;
+}
+
+.new-arrivals h2,
+.popular-books h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.new-arrivals ul,
+.popular-books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.new-arrivals li,
+.popular-books li {
+  margin-bottom: 20px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-info > * {
+  margin-bottom: 5px;
+}
+
+.book-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-author {
+  color: #666;
+}
+
+.book-discount {
+  color: #007bff;
+}
+
+.book-price {
+  color: #28a745;
+}
+
+.book-rating {
+  color: #ff07e6;
+}

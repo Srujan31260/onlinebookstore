@@ -1,0 +1,35 @@
+/* Footer.css */
+.footer {
+    background-color: #78b53f; 
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd700; /* Change to desired hover color */
+  }
+  
+  .copy-right {
+    font-size: 14px;
+  }
+  
+  .copy-right::before {
+    content: '\A9'; /* Copyright symbol */
+    margin-right: 5px;
+  }
+  

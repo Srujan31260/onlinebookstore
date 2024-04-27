@@ -1,0 +1,84 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+   */
+  
+  .container10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  .rating-form {
+    background-color: #fd6a85;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid green;
+  }
+  
+  .rating-form h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .book {
+    margin-bottom: 20px;
+  }
+  
+  .book p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+ 
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: #ffd700; 
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: #ffac33; 
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
